@@ -16,7 +16,7 @@ class CustomTool(ApiV1):
         return tool_notes
 
 def main():
-    tool = CustomTool("MyCustomTool")
+    tool = CustomTool("MyCustomTool", sys.argv)
     tool.service()
 
 if __name__ == "__main__":
