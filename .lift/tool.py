@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+import sys
 from sonatypeliftlib.apiv1 import ApiV1, ToolNote
 
 class CustomTool(ApiV1):
