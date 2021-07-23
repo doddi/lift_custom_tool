@@ -9,10 +9,10 @@ class CustomTool(ApiV1):
     def tool_run(self):
         tool_notes = []
 
-        tn1 = ToolNote("Foo", "Foo Message", None, None, None)
+        tn1 = ToolNote("Foo", "Foo Message", "foo.txt", None, None)
         tool_notes.append(tn1)
 
-        tn2 = ToolNote("Bar", "Bar Message", None, 1, None)
+        tn2 = ToolNote("Bar", "Bar Message", "bar.yml", 1, None)
         tool_notes.append(tn2)
         return tool_notes
 
