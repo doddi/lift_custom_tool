@@ -1,2 +1,2 @@
-pip3 install sonatypeliftlib
+pip3 install sonatypeliftlib==0.0.3
 
