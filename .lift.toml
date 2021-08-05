@@ -1,3 +1,2 @@
 setup = ".lift/setup.sh"
 tools = []
-customTools = [".lift/tool.py"]
