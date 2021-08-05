@@ -1,2 +1,2 @@
 tools = ['marketplace']
-marketplace = []
+marketplace = ['foobar']
